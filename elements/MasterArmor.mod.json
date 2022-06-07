@@ -1,0 +1,74 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "master_head",
+    "enableBody": true,
+    "textureBody": "master_body",
+    "enableLeggings": true,
+    "textureLeggings": "master_leggings",
+    "enableBoots": true,
+    "textureBoots": "master_boots",
+    "onHelmetTick": {
+      "name": "Maarmor"
+    },
+    "onBodyTick": {
+      "name": "Maarmor"
+    },
+    "onLeggingsTick": {
+      "name": "Maarmor"
+    },
+    "onBootsTick": {
+      "name": "Maarmor"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "master",
+    "helmetName": "Master Helmet",
+    "bodyName": "Master Chestplate",
+    "leggingsName": "Master Leggings",
+    "bootsName": "Master Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 500,
+    "damageValueHelmet": 10,
+    "damageValueBody": 25,
+    "damageValueLeggings": 30,
+    "damageValueBoots": 10,
+    "enchantability": 100,
+    "toughness": 10.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Battery"
+      }
+    ]
+  }
+}

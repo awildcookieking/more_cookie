@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "more_cookie:swordofthunder"
+  },
+  "addition": {
+    "item": "more_cookie:lightningorb"
+  },
+  "result": {
+    "item": "more_cookie:master_of_thunder"
+  }
+}

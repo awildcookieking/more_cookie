@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "masterpickaxe",
+    "customModelName": "Normal",
+    "name": "master pickaxe",
+    "specialInfo": [
+      "adds combos to mining"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 25.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50,
+    "damageVsEntity": 6.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AncientPickaxeBlockDestroyedWithTool"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "more_cookie:master_of_thunder"
+  },
+  "addition": {
+    "item": "more_cookie:batterypack"
+  },
+  "result": {
+    "item": "more_cookie:electricvaporizer"
+  }
+}

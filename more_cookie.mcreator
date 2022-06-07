@@ -1,0 +1,2307 @@
+{
+  "mod_elements": [
+    {
+      "name": "CrimsonArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CrimsonArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ASword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sword"
+    },
+    {
+      "name": "ASwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SquarecookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squarecookie_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Squarecookie",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squarecookie"
+    },
+    {
+      "name": "Suger",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suger"
+    },
+    {
+      "name": "Sugerchunk",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugerchunk"
+    },
+    {
+      "name": "Sr",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sr"
+    },
+    {
+      "name": "Kelppackage",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kelppackage"
+    },
+    {
+      "name": "Kpr",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kpr"
+    },
+    {
+      "name": "AncientPickaxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_pickaxe"
+    },
+    {
+      "name": "AncientAxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_axe"
+    },
+    {
+      "name": "AncientSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_sword"
+    },
+    {
+      "name": "AncientPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Axecooldown",
+      "type": "potioneffect",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axecooldown"
+    },
+    {
+      "name": "AncientAxeEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_axe_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swordofthunder",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthunder"
+    },
+    {
+      "name": "SwordofthunderLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthunder_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mine",
+      "type": "villagertrade",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine"
+    },
+    {
+      "name": "Satg",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satg"
+    },
+    {
+      "name": "Xp",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Axp",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Criteffect",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "criteffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miningeffect",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miningeffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XpmeterRightclicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpmeter_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xpmeter",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpmeter"
+    },
+    {
+      "name": "Xpmeterr",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpmeterr"
+    },
+    {
+      "name": "Anotherxp",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anotherxp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Air",
+      "type": "biome",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air"
+    },
+    {
+      "name": "Aird",
+      "type": "dimension",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aird",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Airspawn",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airspawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "I1",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_1"
+    },
+    {
+      "name": "I2",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_2"
+    },
+    {
+      "name": "I3",
+      "type": "structure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_3"
+    },
+    {
+      "name": "I4",
+      "type": "structure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_4"
+    },
+    {
+      "name": "P1",
+      "type": "structure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_1"
+    },
+    {
+      "name": "P2",
+      "type": "structure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_2"
+    },
+    {
+      "name": "P3",
+      "type": "structure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_3"
+    },
+    {
+      "name": "S1",
+      "type": "structure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_1"
+    },
+    {
+      "name": "I5",
+      "type": "structure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_5"
+    },
+    {
+      "name": "O1",
+      "type": "structure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_1"
+    },
+    {
+      "name": "Pp1",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pp_1"
+    },
+    {
+      "name": "O2",
+      "type": "structure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_2"
+    },
+    {
+      "name": "Oneslot",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oneslot"
+    },
+    {
+      "name": "OregeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oregenerator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oregenerator",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oregenerator"
+    },
+    {
+      "name": "Ogr",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogr"
+    },
+    {
+      "name": "AirdPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aird_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Treegrower",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treegrower"
+    },
+    {
+      "name": "TreegrowerUpdateTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treegrower_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nineslotgui",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nineslotgui"
+    },
+    {
+      "name": "Solarcell",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcell"
+    },
+    {
+      "name": "Solarcell2",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcell_2"
+    },
+    {
+      "name": "Solarcell3",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcell_3"
+    },
+    {
+      "name": "Solarcell4",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcell_4"
+    },
+    {
+      "name": "Plasmacell",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasmacell"
+    },
+    {
+      "name": "Plasmacell2",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasmacell_2"
+    },
+    {
+      "name": "Uraniumcell",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcell"
+    },
+    {
+      "name": "Uraniumcell2",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcell_2"
+    },
+    {
+      "name": "Heatcell",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatcell"
+    },
+    {
+      "name": "Heatcell2",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatcell_2"
+    },
+    {
+      "name": "Sc",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc"
+    },
+    {
+      "name": "Sc2",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_2"
+    },
+    {
+      "name": "Sc3",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_3"
+    },
+    {
+      "name": "Sc4",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_4"
+    },
+    {
+      "name": "Masterpickaxe",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masterpickaxe"
+    },
+    {
+      "name": "Mr",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore"
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block"
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe"
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe"
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting"
+    },
+    {
+      "name": "Solarpanel",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarpanel"
+    },
+    {
+      "name": "SolarpanelUpdateTick",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarpanel_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spr",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spr"
+    },
+    {
+      "name": "U1",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_1"
+    },
+    {
+      "name": "U2",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_2"
+    },
+    {
+      "name": "Treetoken",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treetoken"
+    },
+    {
+      "name": "Coin",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin"
+    },
+    {
+      "name": "Miningtoken",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miningtoken"
+    },
+    {
+      "name": "Solartoken",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solartoken"
+    },
+    {
+      "name": "Uraniumtoken",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumtoken"
+    },
+    {
+      "name": "Heattoken",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heattoken"
+    },
+    {
+      "name": "Plasmatoken",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasmatoken"
+    },
+    {
+      "name": "Cointable",
+      "type": "loottable",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cointable"
+    },
+    {
+      "name": "Ironblocka",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironblocka"
+    },
+    {
+      "name": "Dontknowyeta",
+      "type": "achievement",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dontknowyeta"
+    },
+    {
+      "name": "Oaky",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaky"
+    },
+    {
+      "name": "Diamondtime",
+      "type": "achievement",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondtime"
+    },
+    {
+      "name": "Strongestofthemall",
+      "type": "achievement",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strongestofthemall"
+    },
+    {
+      "name": "Highachiver",
+      "type": "achievement",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "highachiver"
+    },
+    {
+      "name": "Suncollector",
+      "type": "achievement",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suncollector"
+    },
+    {
+      "name": "Radioactive",
+      "type": "achievement",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive"
+    },
+    {
+      "name": "Ouchradioaactive",
+      "type": "achievement",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouchradioaactive"
+    },
+    {
+      "name": "Archer",
+      "type": "achievement",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archer"
+    },
+    {
+      "name": "Veryhot",
+      "type": "achievement",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veryhot"
+    },
+    {
+      "name": "Getaxpmeter",
+      "type": "achievement",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "getaxpmeter"
+    },
+    {
+      "name": "Energymetercode",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energymetercode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Energymeter",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energymeter"
+    },
+    {
+      "name": "Seethevolts",
+      "type": "achievement",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seethevolts"
+    },
+    {
+      "name": "Hotterthenlava",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotterthenlava"
+    },
+    {
+      "name": "Yougotthat",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yougotthat"
+    },
+    {
+      "name": "Whatdosetido",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whatdosetido"
+    },
+    {
+      "name": "Channelyourinnerlightning",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "channelyourinnerlightning"
+    },
+    {
+      "name": "Axedash",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axedash"
+    },
+    {
+      "name": "Trr",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trr"
+    },
+    {
+      "name": "Uraniumgen",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumgen"
+    },
+    {
+      "name": "Ugc",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ugc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ugr",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ugr"
+    },
+    {
+      "name": "Hgc",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hgc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heatgen",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatgen"
+    },
+    {
+      "name": "Hc",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hc"
+    },
+    {
+      "name": "Hc2",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hc_2"
+    },
+    {
+      "name": "Cr",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr"
+    },
+    {
+      "name": "Plasmacore",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasmacore"
+    },
+    {
+      "name": "Pcr",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcr"
+    },
+    {
+      "name": "Plasmagen",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasmagen"
+    },
+    {
+      "name": "Pgc",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pgc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wire",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire"
+    },
+    {
+      "name": "Wc",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wr",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wr"
+    },
+    {
+      "name": "Rrrrrrrr",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rrrrrrrr"
+    },
+    {
+      "name": "Pcrr",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcrr"
+    },
+    {
+      "name": "Pcrrr",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcrrr"
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery"
+    },
+    {
+      "name": "Electricgui",
+      "type": "gui",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricgui"
+    },
+    {
+      "name": "Batterypack",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batterypack"
+    },
+    {
+      "name": "Eccc",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eccc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Energycondenser",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energycondenser"
+    },
+    {
+      "name": "Onecslot",
+      "type": "gui",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onecslot"
+    },
+    {
+      "name": "Eccr",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eccr"
+    },
+    {
+      "name": "StatueEntityIsHurt",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Statue",
+      "type": "livingentity",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue"
+    },
+    {
+      "name": "Actualstatue",
+      "type": "livingentity",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actualstatue"
+    },
+    {
+      "name": "ActualstatueEntityDies",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actualstatue_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zeusarena",
+      "type": "structure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeusarena"
+    },
+    {
+      "name": "Hades",
+      "type": "livingentity",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hades"
+    },
+    {
+      "name": "Hadesattackc",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadesattackc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Labrys",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labrys"
+    },
+    {
+      "name": "Labrysc",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labrysc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cerberus",
+      "type": "livingentity",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cerberus"
+    },
+    {
+      "name": "Lightningorb",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightningorb"
+    },
+    {
+      "name": "MasterOfThunder",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_of_thunder"
+    },
+    {
+      "name": "Motc",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Motr",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motr"
+    },
+    {
+      "name": "SoulOrb",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_orb"
+    },
+    {
+      "name": "Soularmor",
+      "type": "armor",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soularmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SoularmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soularmor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sa1",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa_1"
+    },
+    {
+      "name": "Sa2",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa_2"
+    },
+    {
+      "name": "Sa3",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa_3"
+    },
+    {
+      "name": "Sa4",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa_4"
+    },
+    {
+      "name": "Poseidonc",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poseidonc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poseidon",
+      "type": "livingentity",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poseidon"
+    },
+    {
+      "name": "PoseidonOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poseidon_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electricvaporizer",
+      "type": "tool",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricvaporizer"
+    },
+    {
+      "name": "ElectricvaporizerRightclicked",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricvaporizer_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Masteraxe",
+      "type": "tool",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masteraxe"
+    },
+    {
+      "name": "Mac",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mac",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cmotc",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmotc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sd",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sd"
+    },
+    {
+      "name": "Bpr",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bpr"
+    },
+    {
+      "name": "Afsd",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "afsd"
+    },
+    {
+      "name": "MasterArmor",
+      "type": "armor",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MasterArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_armor_helmet_recipe"
+    },
+    {
+      "name": "MasterArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_armor_body_recipe"
+    },
+    {
+      "name": "MasterArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_armor_leggings_recipe"
+    },
+    {
+      "name": "MasterArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_armor_boots_recipe"
+    },
+    {
+      "name": "Maarmor",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maarmor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waterorb",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterorb"
+    },
+    {
+      "name": "Splashwave",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splashwave"
+    },
+    {
+      "name": "Splashcode",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splashcode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Splashcooldown",
+      "type": "potioneffect",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splashcooldown"
+    },
+    {
+      "name": "Wdfghj",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wdfghj"
+    },
+    {
+      "name": "Firearena",
+      "type": "structure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firearena"
+    },
+    {
+      "name": "Waterarena",
+      "type": "structure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterarena"
+    },
+    {
+      "name": "Elytrar",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elytrar"
+    },
+    {
+      "name": "Reaper",
+      "type": "livingentity",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaper"
+    },
+    {
+      "name": "Reaperc",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaperc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReaperOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaper_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReaperOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaper_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidcatalistRightclicked",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidcatalist_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voidcatalist",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidcatalist"
+    },
+    {
+      "name": "WoodArmor",
+      "type": "armor",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "WoodArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_armor_helmet_recipe"
+    },
+    {
+      "name": "WoodArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_armor_body_recipe"
+    },
+    {
+      "name": "WoodArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_armor_leggings_recipe"
+    },
+    {
+      "name": "WoodArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.more_cookie.swordofthunder": "thunder sword",
+      "item.more_cookie.sugerchunk": "Sugerchunk",
+      "advancements.dontknowyeta.descr": "eat some cooked chicken",
+      "item.more_cookie.miningtoken": "mining token",
+      "advancements.whatdosetido.descr": "get a ancient sword",
+      "advancements.radioactive.title": "handle with care",
+      "item.more_cookie.crimson_armor_helmet": "Crimson Helmet",
+      "item.more_cookie.uraniumcell_2": "uraniumcell2",
+      "advancements.hotterthenlava.title": "hotter then lava",
+      "advancements.archer.descr": "get a bow",
+      "item.more_cookie.wood_armor_helmet": "Wood Helmet",
+      "item.more_cookie.ancient_sword": "Ancient Sword",
+      "item.more_cookie.plasmacell_2": "plasmacell2",
+      "block.more_cookie.solarpanel": "solar panel",
+      "block.more_cookie.heatgen": "heat gen",
+      "advancements.seethevolts.descr": "get a energy meter",
+      "item.more_cookie.aird": "Aird Portal Igniter",
+      "item.more_cookie.master_armor_chestplate": "Master Chestplate",
+      "advancements.oaky.descr": "get a oak log",
+      "advancements.suncollector.descr": "get a solar cell 4",
+      "entity.more_cookie.reaper": "Void Reaper",
+      "advancements.ironblocka.descr": "obtain a iron block",
+      "item.more_cookie.soularmor_helmet": "soul Helmet",
+      "item.more_cookie.uraniumtoken": "uranium token",
+      "item.more_cookie.wood_armor_leggings": "Wood Leggings",
+      "item.more_cookie.plasmacell": "plasmacell",
+      "advancements.axedash.title": "amazing elytra combo?",
+      "block.more_cookie.treegrower": "tree grower",
+      "item.more_cookie.poseidon_spawn_egg": "Poseidon Spawn Egg",
+      "advancements.veryhot.descr": "get a redstone block",
+      "block.more_cookie.kelppackage": "Kelp package",
+      "item.more_cookie.actualstatue_spawn_egg": "Actualstatue Spawn Egg",
+      "advancements.veryhot.title": "very hot?",
+      "item.more_cookie.wood_armor_chestplate": "Wood Chestplate",
+      "biome.more_cookie.air": "Air",
+      "advancements.strongestofthemall.title": "reinforcements",
+      "item.more_cookie.xpmeter": "Xp meter",
+      "item.more_cookie.heatcell": "heatcell",
+      "block.more_cookie.uranium_ore": "Uranium Ore",
+      "advancements.yougotthat.title": "richest of them all",
+      "block.more_cookie.energycondenser": "energy condenser",
+      "effect.more_cookie.axecooldown": "axe cooldown",
+      "advancements.oaky.title": "wooden age",
+      "item.more_cookie.solarcell": "Solarcell",
+      "entity.more_cookie.hades": "hades",
+      "entity.more_cookie.actualstatue": "Actualstatue",
+      "advancements.getaxpmeter.title": "Level up!",
+      "item.more_cookie.splashwave": "splash wave",
+      "item.more_cookie.coin": "coin",
+      "advancements.dontknowyeta.title": "chicken nuggies",
+      "advancements.axedash.descr": "get a ancient axe",
+      "advancements.highachiver.descr": "get a coin",
+      "item.more_cookie.labrys": "Labrys",
+      "item.more_cookie.soularmor_leggings": "soul Leggings",
+      "item.more_cookie.treetoken": "Tree token",
+      "item.more_cookie.plasmacore": "Plasma core",
+      "advancements.archer.title": "archer",
+      "item.more_cookie.energymeter": "ec meter",
+      "item.more_cookie.statue_spawn_egg": "zeus Spawn Egg",
+      "entity.more_cookie.cerberus": "Cerberus",
+      "item.more_cookie.plasmatoken": "plasma token",
+      "advancements.ouchradioaactive.descr": "get a uranium ingot",
+      "item.more_cookie.ancient_pickaxe": "Ancient Pickaxe",
+      "advancements.hotterthenlava.descr": "get a heat cell 2",
+      "advancements.seethevolts.title": "see the volts",
+      "item.more_cookie.voidcatalist": "Void catalist",
+      "item.more_cookie.masteraxe": "master axe",
+      "advancements.radioactive.descr": "get tnt",
+      "advancements.channelyourinnerlightning.title": "warrior of the thunder",
+      "item.more_cookie.soularmor_boots": "soul Boots",
+      "entity.more_cookie.statue": "zeus",
+      "item.more_cookie.master_armor_leggings": "Master Leggings",
+      "block.more_cookie.suger": "Suger",
+      "item.more_cookie.soul_orb": "Soul orb",
+      "advancements.yougotthat.descr": "get a netherite block",
+      "block.more_cookie.wire": "wire",
+      "item.more_cookie.lightningorb": "Lightning orb",
+      "entity.more_cookie.poseidon": "Poseidon",
+      "advancements.whatdosetido.title": "a normal sword?",
+      "item.more_cookie.uranium_ingot": "Uranium",
+      "advancements.getaxpmeter.descr": "get a xp meter",
+      "item.more_cookie.squarecookie": "Square cookie",
+      "item.more_cookie.solarcell_2": "Solarcell2",
+      "item.more_cookie.solarcell_4": "Solarcell4",
+      "item.more_cookie.electricvaporizer": "Electric vaporizer",
+      "item.more_cookie.solarcell_3": "Solarcell3",
+      "advancements.highachiver.title": "high achiever",
+      "item.more_cookie.solartoken": "solar token",
+      "item.more_cookie.hades_spawn_egg": "hades Spawn Egg",
+      "item.more_cookie.heattoken": "heat token",
+      "item.more_cookie.reaper_spawn_egg": "Void Reaper Spawn Egg",
+      "item.more_cookie.uraniumcell": "uraniumcell",
+      "item.more_cookie.wood_armor_boots": "Wood Boots",
+      "advancements.suncollector.title": "solar enthusiast",
+      "item.more_cookie.heatcell_2": "heatcell2",
+      "item.more_cookie.a_sword": "Air sword",
+      "advancements.diamondtime.descr": "get a diamond block",
+      "item.more_cookie.master_armor_boots": "Master Boots",
+      "item.more_cookie.crimson_armor_boots": "Crimson Boots",
+      "advancements.strongestofthemall.descr": "get a netherite ingot",
+      "item.more_cookie.ancient_axe": "Ancient Axe",
+      "item.more_cookie.battery": "Battery",
+      "item.more_cookie.master_of_thunder": "master thunder sword",
+      "advancements.diamondtime.title": "make it rain",
+      "block.more_cookie.uranium_block": "Block of Uranium",
+      "advancements.channelyourinnerlightning.descr": "get a sword of thunder",
+      "item.more_cookie.master_armor_helmet": "Master Helmet",
+      "item.more_cookie.crimson_armor_leggings": "Crimson Leggings",
+      "item.more_cookie.soularmor_chestplate": "soul Chestplate",
+      "item.more_cookie.cerberus_spawn_egg": "Cerberus Spawn Egg",
+      "item.more_cookie.waterorb": "water orb",
+      "block.more_cookie.plasmagen": "plasma gen",
+      "advancements.ouchradioaactive.title": "dont touch",
+      "effect.more_cookie.splashcooldown": "splash cooldown",
+      "item.more_cookie.batterypack": "Batterypack",
+      "block.more_cookie.uraniumgen": "nuclear gen",
+      "item.more_cookie.crimson_armor_chestplate": "Crimson Chestplate",
+      "item.more_cookie.masterpickaxe": "master pickaxe",
+      "advancements.ironblocka.title": "get a iron block",
+      "block.more_cookie.oregenerator": "Oregenerator"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_cookie",
+    "modName": "more cookie",
+    "version": "1.0.0",
+    "author": "Brett, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.morecookie",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

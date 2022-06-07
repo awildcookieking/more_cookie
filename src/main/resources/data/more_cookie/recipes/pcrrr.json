@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "more_cookie:plasmacell"
+    },
+    "1": {
+      "item": "more_cookie:plasmacore"
+    },
+    "2": {
+      "item": "more_cookie:plasmacell"
+    },
+    "3": {
+      "item": "more_cookie:plasmacore"
+    },
+    "4": {
+      "item": "more_cookie:heatcell_2"
+    },
+    "5": {
+      "item": "more_cookie:plasmacore"
+    },
+    "6": {
+      "item": "more_cookie:plasmacell"
+    },
+    "7": {
+      "item": "more_cookie:plasmacore"
+    },
+    "8": {
+      "item": "more_cookie:plasmacell"
+    }
+  },
+  "result": {
+    "item": "more_cookie:plasmacell_2",
+    "count": 1
+  }
+}

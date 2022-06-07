@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    },
+    "1": {
+      "item": "more_cookie:solarcell_3"
+    },
+    "2": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "more_cookie:solarcell_3"
+    },
+    "4": {
+      "item": "more_cookie:solarcell_3"
+    },
+    "5": {
+      "item": "more_cookie:solarcell_3"
+    },
+    "6": {
+      "item": "minecraft:redstone_block"
+    },
+    "7": {
+      "item": "more_cookie:solarcell_3"
+    },
+    "8": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "more_cookie:solarcell_4",
+    "count": 1
+  }
+}

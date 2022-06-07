@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "more_cookie:block/wire"
+    },
+    "facing=east": {
+      "model": "more_cookie:block/wire",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "more_cookie:block/wire",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_cookie:block/wire",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "more_cookie:block/wire",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "more_cookie:block/wire",
+      "x": 90
+    }
+  }
+}

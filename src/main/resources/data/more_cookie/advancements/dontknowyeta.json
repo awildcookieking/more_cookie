@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "title": {
+      "translate": "advancements.dontknowyeta.title"
+    },
+    "description": {
+      "translate": "advancements.dontknowyeta.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dontknowyeta": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_chicken"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "more_cookie:entities/cointable"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

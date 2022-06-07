@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/energy_c",
+    "up": "more_cookie:blocks/energy_c",
+    "north": "more_cookie:blocks/energy_c",
+    "east": "more_cookie:blocks/energy_c",
+    "south": "more_cookie:blocks/energy_c",
+    "west": "more_cookie:blocks/energy_c",
+    "particle": "more_cookie:blocks/energy_c"
+  }
+}

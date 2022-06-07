@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UraniumIngot"
+      },
+      {
+        "value": "CUSTOM:Soularmor.legs"
+      },
+      {
+        "value": "CUSTOM:UraniumIngot"
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": "CUSTOM:Battery"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Battery"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MasterArmor.legs"
+    },
+    "name": "master_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

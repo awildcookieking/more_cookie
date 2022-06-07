@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "more_cookie:labrys"
+  },
+  "addition": {
+    "item": "more_cookie:heatcell"
+  },
+  "result": {
+    "item": "more_cookie:masteraxe"
+  }
+}

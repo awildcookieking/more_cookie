@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ancient_axe",
+    "customModelName": "Normal",
+    "name": "Ancient Axe",
+    "specialInfo": [
+      "axe dash"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 0.5,
+    "enchantability": 32,
+    "damageVsEntity": 21.0,
+    "usageCount": 802,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "AncientAxeEntitySwingsItem"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "more_cookie:oregenerator",
+    "more_cookie:uranium_ore",
+    "more_cookie:uranium_block",
+    "more_cookie:solarpanel",
+    "more_cookie:uraniumgen",
+    "more_cookie:heatgen",
+    "more_cookie:plasmagen",
+    "more_cookie:wire",
+    "more_cookie:energycondenser"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/plasmagen",
+    "up": "more_cookie:blocks/plasmagen",
+    "north": "more_cookie:blocks/plasmagen",
+    "east": "more_cookie:blocks/plasmagen",
+    "south": "more_cookie:blocks/iron_output",
+    "west": "more_cookie:blocks/plasmagen",
+    "particle": "more_cookie:blocks/plasmagen"
+  }
+}

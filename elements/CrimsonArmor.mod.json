@@ -1,0 +1,74 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "crimson_head",
+    "enableBody": true,
+    "textureBody": "crimson_body",
+    "enableLeggings": true,
+    "textureLeggings": "crimson_leggings",
+    "enableBoots": true,
+    "textureBoots": "crimson_boots",
+    "onHelmetTick": {
+      "name": "CrimsonArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "CrimsonArmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "CrimsonArmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "CrimsonArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "crimson",
+    "helmetName": "Crimson Helmet",
+    "bodyName": "Crimson Chestplate",
+    "leggingsName": "Crimson Leggings",
+    "bootsName": "Crimson Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 25,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.soul_soil.hit"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.CRIMSON_HYPHAE"
+      }
+    ]
+  }
+}

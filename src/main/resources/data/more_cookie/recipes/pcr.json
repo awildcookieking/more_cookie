@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "more_cookie:uraniumcell_2"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "more_cookie:solarcell_2"
+    },
+    "4": {
+      "item": "more_cookie:plasmatoken"
+    },
+    "5": {
+      "item": "more_cookie:heatcell_2"
+    },
+    "6": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "7": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "8": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "more_cookie:plasmacore",
+    "count": 1
+  }
+}

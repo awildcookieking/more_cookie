@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "more_cookie:uranium_ingot"
+    },
+    "1": {
+      "item": "more_cookie:soularmor_helmet"
+    },
+    "2": {
+      "item": "more_cookie:uranium_ingot"
+    },
+    "3": {
+      "item": "more_cookie:battery"
+    },
+    "5": {
+      "item": "more_cookie:battery"
+    }
+  },
+  "result": {
+    "item": "more_cookie:master_armor_helmet",
+    "count": 1
+  }
+}

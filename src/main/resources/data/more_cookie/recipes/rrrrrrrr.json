@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "1": {
+      "item": "more_cookie:uraniumgen"
+    },
+    "2": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "3": {
+      "item": "more_cookie:heatgen"
+    },
+    "4": {
+      "item": "more_cookie:plasmacore"
+    },
+    "5": {
+      "item": "more_cookie:heatgen"
+    },
+    "6": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "7": {
+      "item": "more_cookie:uraniumgen"
+    },
+    "8": {
+      "item": "minecraft:budding_amethyst"
+    }
+  },
+  "result": {
+    "item": "more_cookie:plasmagen",
+    "count": 1
+  }
+}

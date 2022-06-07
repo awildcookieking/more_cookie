@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CrimsonArmor.boots"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:SoulOrb"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Soularmor.boots"
+    },
+    "name": "sa_4",
+    "namespace": "mod"
+  }
+}

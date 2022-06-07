@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "more_cookie:swordofthunder"
+    },
+    "title": {
+      "translate": "advancements.channelyourinnerlightning.title"
+    },
+    "description": {
+      "translate": "advancements.channelyourinnerlightning.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "channelyourinnerlightning": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "more_cookie:swordofthunder"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "more_cookie:entities/cointable"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

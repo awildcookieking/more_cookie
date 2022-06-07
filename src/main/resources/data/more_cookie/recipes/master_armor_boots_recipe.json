@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "more_cookie:battery"
+    },
+    "2": {
+      "item": "more_cookie:battery"
+    },
+    "3": {
+      "item": "more_cookie:uranium_ingot"
+    },
+    "4": {
+      "item": "more_cookie:soularmor_boots"
+    },
+    "5": {
+      "item": "more_cookie:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "more_cookie:master_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ancient_pickaxe",
+    "customModelName": "Normal",
+    "name": "Ancient Pickaxe",
+    "specialInfo": [
+      "adds combos to mining"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 32,
+    "damageVsEntity": 5.0,
+    "usageCount": 802,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AncientPickaxeBlockDestroyedWithTool"
+    }
+  }
+}

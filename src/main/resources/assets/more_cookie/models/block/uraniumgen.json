@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/uraniumgen",
+    "up": "more_cookie:blocks/uraniumgen",
+    "north": "more_cookie:blocks/uraniumgen",
+    "east": "more_cookie:blocks/uraniumgen",
+    "south": "more_cookie:blocks/iron_output",
+    "west": "more_cookie:blocks/uraniumgen",
+    "particle": "more_cookie:blocks/uraniumgen"
+  }
+}

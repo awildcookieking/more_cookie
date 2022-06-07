@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "more_cookie:crimson_armor_boots"
+  },
+  "addition": {
+    "item": "more_cookie:soul_orb"
+  },
+  "result": {
+    "item": "more_cookie:soularmor_boots"
+  }
+}

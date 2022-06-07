@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/tree_grower",
+    "up": "more_cookie:blocks/tree_grower",
+    "north": "more_cookie:blocks/tree_grower",
+    "east": "more_cookie:blocks/tree_grower",
+    "south": "more_cookie:blocks/tree_grower",
+    "west": "more_cookie:blocks/tree_grower",
+    "particle": "more_cookie:blocks/tree_grower"
+  }
+}

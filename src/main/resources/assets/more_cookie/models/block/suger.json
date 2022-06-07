@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "more_cookie:blocks/djr",
+    "particle": "more_cookie:blocks/djr"
+  }
+}

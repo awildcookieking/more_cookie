@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "more_cookie:uranium_block"
+    }
+  ],
+  "result": {
+    "item": "more_cookie:uranium_ingot",
+    "count": 9
+  }
+}

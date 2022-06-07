@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "master_axe",
+    "customModelName": "Normal",
+    "name": "master axe",
+    "specialInfo": [
+      "master axe dash"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 60.0,
+    "attackSpeed": 0.5,
+    "enchantability": 50,
+    "damageVsEntity": 60.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "Mac"
+    }
+  }
+}

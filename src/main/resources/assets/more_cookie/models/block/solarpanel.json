@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/iron_wall",
+    "up": "more_cookie:blocks/solar_panel",
+    "north": "more_cookie:blocks/iron_wall",
+    "east": "more_cookie:blocks/iron_wall",
+    "south": "more_cookie:blocks/iron_wall",
+    "west": "more_cookie:blocks/iron_wall",
+    "particle": "more_cookie:blocks/iron_wall"
+  }
+}

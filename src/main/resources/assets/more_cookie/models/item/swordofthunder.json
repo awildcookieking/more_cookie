@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "more_cookie:items/sword_of_thunder"
+  }
+}

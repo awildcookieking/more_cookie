@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/hg",
+    "up": "more_cookie:blocks/hg",
+    "north": "more_cookie:blocks/hg",
+    "east": "more_cookie:blocks/hg",
+    "south": "more_cookie:blocks/iron_output",
+    "west": "more_cookie:blocks/hg",
+    "particle": "more_cookie:blocks/hg"
+  }
+}

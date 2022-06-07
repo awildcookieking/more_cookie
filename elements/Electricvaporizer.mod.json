@@ -1,0 +1,35 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "electric_vaperizor",
+    "customModelName": "Normal",
+    "name": "Electric vaporizer",
+    "specialInfo": [
+      "combo and 2 special abilitys"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 32,
+    "damageVsEntity": 35.0,
+    "usageCount": 128000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ElectricvaporizerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "Cmotc"
+    }
+  }
+}
