@@ -21,11 +21,13 @@ import net.mcreator.morecookie.block.UraniumBlockBlock;
 import net.mcreator.morecookie.block.TreegrowerBlock;
 import net.mcreator.morecookie.block.SugerBlock;
 import net.mcreator.morecookie.block.SolarpanelBlock;
+import net.mcreator.morecookie.block.RacepadBlock;
 import net.mcreator.morecookie.block.PlasmagenBlock;
 import net.mcreator.morecookie.block.OregeneratorBlock;
 import net.mcreator.morecookie.block.KelppackageBlock;
 import net.mcreator.morecookie.block.HeatgenBlock;
 import net.mcreator.morecookie.block.EnergycondenserBlock;
+import net.mcreator.morecookie.block.BoostpadBlock;
 import net.mcreator.morecookie.block.AirdPortalBlock;
 import net.mcreator.morecookie.MoreCookieMod;
 
@@ -44,6 +46,8 @@ public class MoreCookieModBlocks {
 	public static final RegistryObject<Block> PLASMAGEN = REGISTRY.register("plasmagen", () -> new PlasmagenBlock());
 	public static final RegistryObject<Block> WIRE = REGISTRY.register("wire", () -> new WireBlock());
 	public static final RegistryObject<Block> ENERGYCONDENSER = REGISTRY.register("energycondenser", () -> new EnergycondenserBlock());
+	public static final RegistryObject<Block> BOOSTPAD = REGISTRY.register("boostpad", () -> new BoostpadBlock());
+	public static final RegistryObject<Block> RACEPAD = REGISTRY.register("racepad", () -> new RacepadBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

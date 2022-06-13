@@ -147,6 +147,8 @@ public class MoreCookieModItems {
 	public static final RegistryObject<Item> WOOD_ARMOR_CHESTPLATE = REGISTRY.register("wood_armor_chestplate", () -> new WoodArmorItem.Chestplate());
 	public static final RegistryObject<Item> WOOD_ARMOR_LEGGINGS = REGISTRY.register("wood_armor_leggings", () -> new WoodArmorItem.Leggings());
 	public static final RegistryObject<Item> WOOD_ARMOR_BOOTS = REGISTRY.register("wood_armor_boots", () -> new WoodArmorItem.Boots());
+	public static final RegistryObject<Item> BOOSTPAD = block(MoreCookieModBlocks.BOOSTPAD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RACEPAD = block(MoreCookieModBlocks.RACEPAD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

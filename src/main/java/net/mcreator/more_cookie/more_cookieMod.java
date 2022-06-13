@@ -38,10 +38,10 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("bossrush")
+@Mod("more_cookie")
 public class BossrushMod {
 	public static final Logger LOGGER = LogManager.getLogger(BossrushMod.class);
-	public static final String MODID = "bossrush";
+	public static final String MODID = "more_cookieMod";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);

@@ -75,7 +75,7 @@ public class OneslotMenu extends AbstractContainerMenu implements Supplier<Map<I
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 73, 32) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 73, 36) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

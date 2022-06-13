@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/racepad",
+    "up": "more_cookie:blocks/racepad",
+    "north": "more_cookie:blocks/racepad",
+    "east": "more_cookie:blocks/racepad",
+    "south": "more_cookie:blocks/racepad",
+    "west": "more_cookie:blocks/racepad",
+    "particle": "more_cookie:blocks/racepad"
+  }
+}

@@ -9,6 +9,8 @@
     "more_cookie:heatgen",
     "more_cookie:plasmagen",
     "more_cookie:wire",
-    "more_cookie:energycondenser"
+    "more_cookie:energycondenser",
+    "more_cookie:boostpad",
+    "more_cookie:racepad"
   ]
 }

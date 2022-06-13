@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_cookie:blocks/boostpad",
+    "up": "more_cookie:blocks/boostpad",
+    "north": "more_cookie:blocks/boostpad",
+    "east": "more_cookie:blocks/boostpad",
+    "south": "more_cookie:blocks/boostpad",
+    "west": "more_cookie:blocks/boostpad",
+    "particle": "more_cookie:blocks/boostpad"
+  }
+}
