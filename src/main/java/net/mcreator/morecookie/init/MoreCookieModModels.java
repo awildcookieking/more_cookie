@@ -10,13 +10,13 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.morecookie.client.model.Modelzeus;
+import net.mcreator.morecookie.client.model.Modelmeteor;
 import net.mcreator.morecookie.client.model.Modelcustom_model;
 import net.mcreator.morecookie.client.model.ModelZeus_Statue;
 import net.mcreator.morecookie.client.model.ModelVoid_Reaper;
+import net.mcreator.morecookie.client.model.ModelTree_Ent;
 import net.mcreator.morecookie.client.model.ModelPoseidon;
 import net.mcreator.morecookie.client.model.ModelCerberus;
-import net.mcreator.more_cookie.client.model.Modelmeteor;
-import net.mcreator.more_cookie.client.model.ModelTree_Ent;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MoreCookieModModels {
