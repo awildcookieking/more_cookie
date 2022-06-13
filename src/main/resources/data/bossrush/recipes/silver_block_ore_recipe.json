@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bossrush:silver_block"
+    }
+  ],
+  "result": {
+    "item": "bossrush:silver_ingot",
+    "count": 9
+  }
+}

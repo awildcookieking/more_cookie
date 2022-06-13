@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bossrush:jade_block"
+    }
+  ],
+  "result": {
+    "item": "bossrush:jade",
+    "count": 9
+  }
+}

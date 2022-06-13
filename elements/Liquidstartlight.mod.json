@@ -1,0 +1,50 @@
+{
+  "_fv": 28,
+  "_type": "fluid",
+  "definition": {
+    "name": "Liquid startlight",
+    "bucketName": "Liquidstartlight Bucket",
+    "textureStill": "starlight",
+    "textureFlowing": "starlight",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 15,
+    "levelDecrease": 1,
+    "slopeFindDistance": 1,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 15.0,
+    "luminosity": 100,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "star",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 15,
+    "lightOpacity": 0,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "LiquidstartlightMobplayerCollidesBlock"
+    }
+  }
+}

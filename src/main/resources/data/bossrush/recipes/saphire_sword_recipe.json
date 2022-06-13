@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:saphire"
+    },
+    "1": {
+      "item": "bossrush:saphire"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bossrush:saphire_sword",
+    "count": 1
+  }
+}

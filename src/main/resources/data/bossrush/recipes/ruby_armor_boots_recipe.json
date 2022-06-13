@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:ruby"
+    },
+    "2": {
+      "item": "bossrush:ruby"
+    },
+    "3": {
+      "item": "bossrush:ruby"
+    },
+    "5": {
+      "item": "bossrush:ruby"
+    }
+  },
+  "result": {
+    "item": "bossrush:ruby_armor_boots",
+    "count": 1
+  }
+}

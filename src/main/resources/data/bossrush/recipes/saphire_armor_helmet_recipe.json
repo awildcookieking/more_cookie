@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:saphire"
+    },
+    "1": {
+      "item": "bossrush:saphire"
+    },
+    "2": {
+      "item": "bossrush:saphire"
+    },
+    "3": {
+      "item": "bossrush:saphire"
+    },
+    "5": {
+      "item": "bossrush:saphire"
+    }
+  },
+  "result": {
+    "item": "bossrush:saphire_armor_helmet",
+    "count": 1
+  }
+}

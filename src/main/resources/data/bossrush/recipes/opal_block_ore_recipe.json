@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bossrush:opal_block"
+    }
+  ],
+  "result": {
+    "item": "bossrush:opal",
+    "count": 9
+  }
+}

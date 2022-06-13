@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bossrush:saphire_block"
+    }
+  ],
+  "result": {
+    "item": "bossrush:saphire",
+    "count": 9
+  }
+}

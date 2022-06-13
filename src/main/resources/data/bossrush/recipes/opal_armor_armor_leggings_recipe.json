@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:opal"
+    },
+    "1": {
+      "item": "bossrush:opal"
+    },
+    "2": {
+      "item": "bossrush:opal"
+    },
+    "3": {
+      "item": "bossrush:opal"
+    },
+    "5": {
+      "item": "bossrush:opal"
+    },
+    "6": {
+      "item": "bossrush:opal"
+    },
+    "8": {
+      "item": "bossrush:opal"
+    }
+  },
+  "result": {
+    "item": "bossrush:opal_armor_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bossrush:blocks/orbinite",
+    "particle": "bossrush:blocks/orbinite"
+  }
+}

@@ -15,14 +15,18 @@ import net.mcreator.morecookie.client.model.ModelZeus_Statue;
 import net.mcreator.morecookie.client.model.ModelVoid_Reaper;
 import net.mcreator.morecookie.client.model.ModelPoseidon;
 import net.mcreator.morecookie.client.model.ModelCerberus;
+import net.mcreator.more_cookie.client.model.Modelmeteor;
+import net.mcreator.more_cookie.client.model.ModelTree_Ent;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MoreCookieModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelTree_Ent.LAYER_LOCATION, ModelTree_Ent::createBodyLayer);
 		event.registerLayerDefinition(Modelzeus.LAYER_LOCATION, Modelzeus::createBodyLayer);
 		event.registerLayerDefinition(ModelPoseidon.LAYER_LOCATION, ModelPoseidon::createBodyLayer);
 		event.registerLayerDefinition(ModelCerberus.LAYER_LOCATION, ModelCerberus::createBodyLayer);
+		event.registerLayerDefinition(Modelmeteor.LAYER_LOCATION, Modelmeteor::createBodyLayer);
 		event.registerLayerDefinition(Modelcustom_model.LAYER_LOCATION, Modelcustom_model::createBodyLayer);
 		event.registerLayerDefinition(ModelZeus_Statue.LAYER_LOCATION, ModelZeus_Statue::createBodyLayer);
 		event.registerLayerDefinition(ModelVoid_Reaper.LAYER_LOCATION, ModelVoid_Reaper::createBodyLayer);

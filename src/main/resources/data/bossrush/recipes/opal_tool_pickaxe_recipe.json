@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:opal"
+    },
+    "1": {
+      "item": "bossrush:opal"
+    },
+    "2": {
+      "item": "bossrush:opal"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bossrush:opal_tool_pickaxe",
+    "count": 1
+  }
+}

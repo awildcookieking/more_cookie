@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bossrush:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "bossrush:ruby",
+    "count": 9
+  }
+}

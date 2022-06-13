@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "bossrush:jade"
+    },
+    "3": {
+      "item": "bossrush:jade"
+    },
+    "4": {
+      "item": "bossrush:jadestaff"
+    },
+    "5": {
+      "item": "bossrush:jade"
+    },
+    "7": {
+      "item": "bossrush:jade"
+    }
+  },
+  "result": {
+    "item": "bossrush:jademasterstaff",
+    "count": 1
+  }
+}

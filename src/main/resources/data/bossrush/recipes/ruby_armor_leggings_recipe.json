@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:ruby"
+    },
+    "1": {
+      "item": "bossrush:ruby"
+    },
+    "2": {
+      "item": "bossrush:ruby"
+    },
+    "3": {
+      "item": "bossrush:ruby"
+    },
+    "5": {
+      "item": "bossrush:ruby"
+    },
+    "6": {
+      "item": "bossrush:ruby"
+    },
+    "8": {
+      "item": "bossrush:ruby"
+    }
+  },
+  "result": {
+    "item": "bossrush:ruby_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:saphire"
+    },
+    "2": {
+      "item": "bossrush:saphire"
+    },
+    "3": {
+      "item": "bossrush:saphire"
+    },
+    "4": {
+      "item": "bossrush:saphire"
+    },
+    "5": {
+      "item": "bossrush:saphire"
+    },
+    "6": {
+      "item": "bossrush:saphire"
+    },
+    "7": {
+      "item": "bossrush:saphire"
+    },
+    "8": {
+      "item": "bossrush:saphire"
+    }
+  },
+  "result": {
+    "item": "bossrush:saphire_armor_chestplate",
+    "count": 1
+  }
+}

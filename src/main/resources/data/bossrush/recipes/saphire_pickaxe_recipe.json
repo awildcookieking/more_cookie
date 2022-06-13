@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:saphire"
+    },
+    "1": {
+      "item": "bossrush:saphire"
+    },
+    "2": {
+      "item": "bossrush:saphire"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bossrush:saphire_pickaxe",
+    "count": 1
+  }
+}

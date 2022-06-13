@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bossrush:blocks/silver_wall",
+    "up": "bossrush:blocks/lens",
+    "north": "bossrush:blocks/silver_wall",
+    "east": "bossrush:blocks/silver_wall",
+    "south": "bossrush:blocks/silver_wall",
+    "west": "bossrush:blocks/silver_wall",
+    "particle": "bossrush:blocks/silver_wall"
+  }
+}

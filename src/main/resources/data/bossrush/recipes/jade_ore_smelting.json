@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.9799999999999999,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bossrush:jade_ore"
+  },
+  "result": "bossrush:jade"
+}

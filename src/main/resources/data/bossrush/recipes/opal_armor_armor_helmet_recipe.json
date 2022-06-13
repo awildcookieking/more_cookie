@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:opal"
+    },
+    "1": {
+      "item": "bossrush:opal"
+    },
+    "2": {
+      "item": "bossrush:opal"
+    },
+    "3": {
+      "item": "bossrush:opal"
+    },
+    "5": {
+      "item": "bossrush:opal"
+    }
+  },
+  "result": {
+    "item": "bossrush:opal_armor_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:silver_ingot"
+    },
+    "2": {
+      "item": "bossrush:silver_ingot"
+    },
+    "3": {
+      "item": "bossrush:silver_ingot"
+    },
+    "5": {
+      "item": "bossrush:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "bossrush:silver_armor_boots",
+    "count": 1
+  }
+}

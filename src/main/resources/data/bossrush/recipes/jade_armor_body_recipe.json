@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:jade"
+    },
+    "2": {
+      "item": "bossrush:jade"
+    },
+    "3": {
+      "item": "bossrush:jade"
+    },
+    "4": {
+      "item": "bossrush:jade"
+    },
+    "5": {
+      "item": "bossrush:jade"
+    },
+    "6": {
+      "item": "bossrush:jade"
+    },
+    "7": {
+      "item": "bossrush:jade"
+    },
+    "8": {
+      "item": "bossrush:jade"
+    }
+  },
+  "result": {
+    "item": "bossrush:jade_armor_chestplate",
+    "count": 1
+  }
+}

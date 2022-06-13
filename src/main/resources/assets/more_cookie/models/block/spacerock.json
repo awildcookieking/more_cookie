@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bossrush:blocks/spacerock",
+    "up": "bossrush:blocks/spacerock",
+    "north": "bossrush:blocks/spacerock",
+    "east": "bossrush:blocks/spacerock",
+    "south": "bossrush:blocks/spacerock",
+    "west": "bossrush:blocks/spacerock",
+    "particle": "bossrush:blocks/spacerock"
+  }
+}

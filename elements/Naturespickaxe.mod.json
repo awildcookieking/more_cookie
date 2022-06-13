@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "blessed_silver_pickaxe",
+    "customModelName": "Normal",
+    "name": "natures Pickaxe",
+    "specialInfo": [
+      "right click jade to mine it"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 3.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Jade"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "NaturespickaxeBlockDestroyedWithTool"
+    }
+  }
+}

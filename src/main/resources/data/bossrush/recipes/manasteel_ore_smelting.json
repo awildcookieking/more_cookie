@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bossrush:manasteel_ore"
+  },
+  "result": "bossrush:manasteel_ingot"
+}

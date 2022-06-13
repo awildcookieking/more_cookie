@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bossrush:jade"
+    },
+    "2": {
+      "item": "bossrush:jade"
+    },
+    "3": {
+      "item": "bossrush:jade"
+    },
+    "5": {
+      "item": "bossrush:jade"
+    }
+  },
+  "result": {
+    "item": "bossrush:jade_armor_boots",
+    "count": 1
+  }
+}
